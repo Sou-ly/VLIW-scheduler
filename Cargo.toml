@@ -1,0 +1,11 @@
+[package]
+name = "vliw470"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "vliw470"
+path = "./src/vliw470.rs"
+
+[dev-dependencies]
+pretty_assertions = "1.3.0"

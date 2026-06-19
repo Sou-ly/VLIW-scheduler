@@ -1,0 +1,11 @@
+# Rust build artifacts
+/target
+
+# Generated schedules from runall.sh / run.sh
+tests/*/simple.json
+tests/*/pip.json
+simulator/result.json
+
+# Editor / OS noise
+*.swp
+.DS_Store
